@@ -5,10 +5,11 @@
 * [Usage](#usage)
 
 ## General info
-#general-info
+(#general-info)
 Building applications for summary statistics using Apache Spark and Scala.
 	
 ## Technology stack
+(#technologies)
 The project is created with:
 * Scala: 2.12.12
 * Apache Spark: 3.0.0 
@@ -20,6 +21,7 @@ The project is created with:
 * Apache Hive Configuration Properties (providing data query and analysis, a SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop).
 	
 ## Setup
+(#setup)
 To run this project, install it on Linux (Debian 9.7 x64) using the scripts:
 
 ```
@@ -39,6 +41,7 @@ org.apache.spark:spark-mllib_2.12:3.0.0
 ```
 
 ## Usage
+(#usage)
 ```
 ...
 ```
