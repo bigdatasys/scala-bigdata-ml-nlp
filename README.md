@@ -1,15 +1,15 @@
-## Scala applications using Spark for Big Data statistics
+# Scala applications using Spark for Big Data statistics
 
-### Table of contents:
+## Table of contents
 * [General info](#general-info)
 * [Technology stack](#technologies)
 * [Setup](#setup)
 * [Usage](#usage)
 
-### <a id="general-info" />General info:
+## <a id="general-info" />General info
 Building applications for summary statistics using Apache Spark and Scala.
 	
-### <a id="technologies" />Technology stack:
+## <a id="technologies" />Technology stack
 The project is created with:
 * Scala: 2.12.12
 * Apache Spark: 3.0.0 
@@ -20,7 +20,7 @@ The project is created with:
 * Windows binaries for Hadoop versions: winutils
 * Apache Hive Configuration Properties (providing data query and analysis, a SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop).
 	
-### <a id="setup" />Setup
+## <a id="setup" />Setup
 To run this project, install it on Linux (Debian 9.7 x64) using the scripts:
 
 ```
@@ -39,7 +39,7 @@ org.apache.spark:spark-sql_2.12:3.0.0
 org.apache.spark:spark-mllib_2.12:3.0.0
 ```
 
-### <a id="usage" />Usage
+## <a id="usage" />Usage
 ```
 ...
 ```
