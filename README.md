@@ -16,6 +16,7 @@
 * IntelliJ IDEA (Ultimate Edition)
 
 ## Features
+SparkConf, SparkContext, mllib, parallelize, dense, mean, variance, numNonzeros, ...
 
 ## Setup
 To run this project, install it on Linux (Debian 9.7 x64) using the scripts:
