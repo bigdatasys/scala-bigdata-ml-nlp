@@ -13,7 +13,7 @@
 * Apache Hive Configuration Properties (providing data query and analysis, a SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop).
 
 ## Technology stack
-* IntelliJ IDEA (Ultimate Edition)
+* IntelliJ IDEA Ultimate
 
 ## Features
 SparkConf, SparkContext, mllib, parallelize, dense, mean, variance, numNonzeros, ...
