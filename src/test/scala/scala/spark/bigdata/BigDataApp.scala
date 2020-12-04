@@ -1,4 +1,4 @@
-package scalaspark.bigdata
+package scala.spark.bigdata
 
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.mllib.linalg.Vectors

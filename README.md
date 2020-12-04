@@ -1,13 +1,14 @@
-# Scala applications using Spark for Big Data statistics
+# Scala Applications for Big Data using Spark MLlib, ML Pipelines, SQL
 
 ## Info
 * Building applications for summary statistics using Apache Spark and Scala.
+* Building applications for clustering using Apache Spark (Machine Learning) and Scala.
 	
 ## Dependencies
 * Scala: 2.12.12
 * Apache Spark: 3.0.0 
 * Maven Scala Plugin: 2.15.2
-* OpenJDK 64-Bit Server VM, Java 1.8.0_222
+* OpenJDK 64-Bit Server VM, Java 1.8
 * SBT 1.2.1
 * Windows binaries for Hadoop versions: winutils
 * Apache Hive Configuration Properties (providing data query and analysis, a SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop).
@@ -16,10 +17,11 @@
 * IntelliJ IDEA Ultimate
 
 ## Features
-SparkConf, SparkContext, mllib, parallelize, dense, mean, variance, numNonzeros, ...
+* SparkConf, SparkContext, mllib, parallelize, dense, mean, variance, numNonzeros, ...
+* SparkSession, clustering, BisectingKMeans, GaussianMixture, KMeans, LDA, ClusteringEvaluator, transform, ...
 
 ## Setup
-To run this project, install it on Linux (Debian 9.7 x64) using the scripts:
+Scripts for Linux (Debian 10):
 
 ```
 $ install-Apache-Spark.sh
@@ -36,3 +38,4 @@ org.apache.spark:spark-core_2.12:3.0.0
 org.apache.spark:spark-sql_2.12:3.0.0
 org.apache.spark:spark-mllib_2.12:3.0.0
 ```
+
