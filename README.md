@@ -8,7 +8,7 @@
 * Scala: 2.12.12
 * Apache Spark: 3.0.0 
 * Maven Scala Plugin: 2.15.2
-* OpenJDK 64-Bit Server VM, Java 1.8
+* OpenJDK: Java 1.8
 * SBT 1.2.1
 * Windows binaries for Hadoop versions: winutils
 * Apache Hive Configuration Properties (providing data query and analysis, a SQL-like interface to query data stored in various databases and file systems that integrate with Hadoop).
